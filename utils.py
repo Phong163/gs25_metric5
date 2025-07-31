@@ -111,7 +111,7 @@ def send_time_to_kafka(zone_id, customer_id, time, bootstrap_servers="hcm.gatewa
     data = {
         "box_id": f"vn0014_{zone_id}",
         "customer_id": customer_id,
-        "time_in_zone": time_in_zone,
+        "dwell_ime_at_aisle": time_in_zone,
         "timestamp": timestamp
     }
     def delivery_report(err, msg):
