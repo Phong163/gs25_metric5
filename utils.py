@@ -106,11 +106,14 @@ def get_producer():
 def send_time_to_kafka(zone_id, customer_id, time, bootstrap_servers="hcm.gateway01.cxview.ai:9094", topic="production-boxv2-peoplecount"):
     """Gửi thông điệp đến Kafka topic, sử dụng Producer chung."""
     # Lấy timestamp theo múi giờ Asia/Ho_Chi_Minh
-    timestamp = datetime.now(pytz.timezone("Asia/Ho_Chi_Minh")).strftime("%d-%m-%Y_%H-%M")
+    dt = datetime.now(pytz.timezone("Asia/Ho_Chi_Minh")).timestamp()
+    timestamp = int(dt)
     time_in_zone = round(time,1)
     data = {
-        "box_id": f"vn0014_{zone_id}",
+        "box_id": "d43050fd-7296-4409-ad54-757af392a0d2",
+        "metric": 5,
         "customer_id": customer_id,
+        "zone_id" : zone_id,
         "dwell_ime_at_aisle": time_in_zone,
         "timestamp": timestamp
     }
