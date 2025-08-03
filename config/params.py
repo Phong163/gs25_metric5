@@ -1,6 +1,6 @@
 camera_configs = {
     0: {
-        "rtsp_url": "rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/201",
+        "rtsp_url": "rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/501",
         "zone_1": [
             (0.7, 0.21),  # Điểm 1
             (0.620, 0.21),  # Điểm 2
