@@ -2,3 +2,13 @@
 2025-07-30 16:44:03,585 - metric_gs25 - INFO - Successfully loaded global OSNet model
 2025-07-30 16:44:03,628 - metric_gs25 - DEBUG - Camera 0 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/201', 'zone_1': [(0.818, 0.252), (0.62, 0.233), (0.11, 0.996), (0.456, 0.996), (0.678, 0.291), (0.82, 0.302)], 'zone_2': [(0.856, 0.435), (0.75, 0.427), (0.702, 0.9917), (0.868, 0.9896)], 'track_person': {}, 'current_frame': 0}
 2025-07-30 16:44:03,632 - metric_gs25 - DEBUG - Camera 1 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/1101', 'zone_1': [(0.381, 0.17), (0.304, 0.168), (0.218, 0.995), (0.479, 0.995)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:17:23,169 - metric_gs25 - INFO - Successfully loaded YOLOv11 model globally
+2025-08-04 11:17:24,008 - metric_gs25 - INFO - Successfully loaded global OSNet model
+2025-08-04 11:17:24,014 - metric_gs25 - DEBUG - Camera 0 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/501', 'zone_1': [(0.7, 0.21), (0.62, 0.21), (0.11, 0.996), (0.456, 0.996)], 'zone_2': [(0.856, 0.435), (0.75, 0.427), (0.702, 0.9917), (0.868, 0.9896)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:17:24,026 - metric_gs25 - DEBUG - Camera 1 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/1101', 'zone_1': [(0.381, 0.16), (0.304, 0.16), (0.218, 0.995), (0.479, 0.995)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:17:24,029 - metric_gs25 - DEBUG - Camera 2 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/601', 'zone_1': [(0.179, 0.104), (0.125, 0.11), (0.204, 0.995), (0.402, 0.966)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:22:24,583 - metric_gs25 - INFO - Successfully loaded YOLOv11 model globally
+2025-08-04 11:22:25,286 - metric_gs25 - INFO - Successfully loaded global OSNet model
+2025-08-04 11:22:25,294 - metric_gs25 - DEBUG - Camera 0 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/501', 'zone_1': [(0.7, 0.21), (0.62, 0.21), (0.11, 0.996), (0.456, 0.996)], 'zone_2': [(0.856, 0.435), (0.75, 0.427), (0.702, 0.9917), (0.868, 0.9896)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:22:25,295 - metric_gs25 - DEBUG - Camera 1 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/1101', 'zone_1': [(0.381, 0.16), (0.304, 0.16), (0.218, 0.995), (0.479, 0.995)], 'track_person': {}, 'current_frame': 0}
+2025-08-04 11:22:25,296 - metric_gs25 - DEBUG - Camera 2 config: {'rtsp_url': 'rtsp://cxview:gs252525@115.78.133.22:554/Streaming/Channels/601', 'zone_1': [(0.179, 0.104), (0.125, 0.11), (0.204, 0.995), (0.402, 0.966)], 'track_person': {}, 'current_frame': 0}
