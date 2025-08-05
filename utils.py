@@ -110,7 +110,7 @@ def send_time_to_kafka(zone_id, customer_id, time, bootstrap_servers="hcm.gatewa
     timestamp = int(dt)
     time_in_zone = round(time,1)
     data = {
-        "box_id": "d2329d74-0219-47d3-ae75-32c12fe95723",
+        "box_id": "d43050fd-7296-4409-ad54-757af392a0d2",
         "metric": 5,
         "customer_id": customer_id,
         "zone_id" : zone_id,
